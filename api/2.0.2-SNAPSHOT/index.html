@@ -1,0 +1,2500 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Siddhi Execution Unit Conversion Extension">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>API Docs - v2.0.2-SNAPSHOT - Siddhi Execution Unit Conversion</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#009688">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-103065-28", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#api-docs-v202-snapshot" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Siddhi Execution Unit Conversion" class="md-header-nav__button md-logo">
+          
+            <img src="../../images/siddhi-logo.svg" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Siddhi Execution Unit Conversion
+            </span>
+            <span class="md-header-nav__topic">
+              
+                API Docs - v2.0.2-SNAPSHOT
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/siddhi-io/siddhi-execution-unitconversion/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Siddhi Execution Unitconversion
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Siddhi Execution Unit Conversion" class="md-nav__button md-logo">
+      
+        <img src="../../images/siddhi-logo.svg" width="48" height="48">
+      
+    </a>
+    Siddhi Execution Unit Conversion
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/siddhi-io/siddhi-execution-unitconversion/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Siddhi Execution Unitconversion
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Information" class="md-nav__link">
+      Information
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      API Docs
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        API Docs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../latest/" title="latest" class="md-nav__link">
+      latest
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../2.0.1/" title="2.0.1" class="md-nav__link">
+      2.0.1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../2.0.0/" title="2.0.0" class="md-nav__link">
+      2.0.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.1.1/" title="1.1.1" class="md-nav__link">
+      1.1.1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.1.0/" title="1.1.0" class="md-nav__link">
+      1.1.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.17/" title="1.0.17" class="md-nav__link">
+      1.0.17
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.16/" title="1.0.16" class="md-nav__link">
+      1.0.16
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.15/" title="1.0.15" class="md-nav__link">
+      1.0.15
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.14/" title="1.0.14" class="md-nav__link">
+      1.0.14
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.13/" title="1.0.13" class="md-nav__link">
+      1.0.13
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.12/" title="1.0.12" class="md-nav__link">
+      1.0.12
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.11/" title="1.0.11" class="md-nav__link">
+      1.0.11
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.10/" title="1.0.10" class="md-nav__link">
+      1.0.10
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.9/" title="1.0.9" class="md-nav__link">
+      1.0.9
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.8/" title="1.0.8" class="md-nav__link">
+      1.0.8
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.7/" title="1.0.7" class="md-nav__link">
+      1.0.7
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.6/" title="1.0.6" class="md-nav__link">
+      1.0.6
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.0.5/" title="1.0.5" class="md-nav__link">
+      1.0.5
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../license/" title="License" class="md-nav__link">
+      License
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unitconversion" title="Unitconversion" class="md-nav__link">
+    Unitconversion
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mmtokm-function" title="MmTokm (Function)" class="md-nav__link">
+    MmTokm (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmtoft-function" title="cmToft (Function)" class="md-nav__link">
+    cmToft (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmtoin-function" title="cmToin (Function)" class="md-nav__link">
+    cmToin (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmtokm-function" title="cmTokm (Function)" class="md-nav__link">
+    cmTokm (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmtom-function" title="cmTom (Function)" class="md-nav__link">
+    cmTom (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmtomi-function" title="cmTomi (Function)" class="md-nav__link">
+    cmTomi (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmtomm-function" title="cmTomm (Function)" class="md-nav__link">
+    cmTomm (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmtonm-function" title="cmTonm (Function)" class="md-nav__link">
+    cmTonm (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmtoum-function" title="cmToum (Function)" class="md-nav__link">
+    cmToum (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmtoyd-function" title="cmToyd (Function)" class="md-nav__link">
+    cmToyd (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dtoh-function" title="dToh (Function)" class="md-nav__link">
+    dToh (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gtokg-function" title="gTokg (Function)" class="md-nav__link">
+    gTokg (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gtomg-function" title="gTomg (Function)" class="md-nav__link">
+    gTomg (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gtoug-function" title="gToug (Function)" class="md-nav__link">
+    gToug (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#htom-function" title="hTom (Function)" class="md-nav__link">
+    hTom (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#htos-function" title="hTos (Function)" class="md-nav__link">
+    hTos (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kgtolt-function" title="kgToLT (Function)" class="md-nav__link">
+    kgToLT (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kgtost-function" title="kgToST (Function)" class="md-nav__link">
+    kgToST (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kgtog-function" title="kgTog (Function)" class="md-nav__link">
+    kgTog (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kgtolb-function" title="kgTolb (Function)" class="md-nav__link">
+    kgTolb (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kgtooz-function" title="kgTooz (Function)" class="md-nav__link">
+    kgTooz (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kgtost-function_1" title="kgTost (Function)" class="md-nav__link">
+    kgTost (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kgtot-function" title="kgTot (Function)" class="md-nav__link">
+    kgTot (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kmtocm-function" title="kmTocm (Function)" class="md-nav__link">
+    kmTocm (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kmtoft-function" title="kmToft (Function)" class="md-nav__link">
+    kmToft (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kmtoin-function" title="kmToin (Function)" class="md-nav__link">
+    kmToin (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kmtom-function" title="kmTom (Function)" class="md-nav__link">
+    kmTom (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kmtomi-function" title="kmTomi (Function)" class="md-nav__link">
+    kmTomi (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kmtomm-function" title="kmTomm (Function)" class="md-nav__link">
+    kmTomm (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kmtonm-function" title="kmTonm (Function)" class="md-nav__link">
+    kmTonm (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kmtoum-function" title="kmToum (Function)" class="md-nav__link">
+    kmToum (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kmtoyd-function" title="kmToyd (Function)" class="md-nav__link">
+    kmToyd (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ltom3-function" title="lTom3 (Function)" class="md-nav__link">
+    lTom3 (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ltoml-function" title="lToml (Function)" class="md-nav__link">
+    lToml (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#m3tol-function" title="m3Tol (Function)" class="md-nav__link">
+    m3Tol (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mtocm-function" title="mTocm (Function)" class="md-nav__link">
+    mTocm (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mtoft-function" title="mToft (Function)" class="md-nav__link">
+    mToft (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mtomm-function" title="mTomm (Function)" class="md-nav__link">
+    mTomm (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mtos-function" title="mTos (Function)" class="md-nav__link">
+    mTos (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mtoyd-function" title="mToyd (Function)" class="md-nav__link">
+    mToyd (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mitokm-function" title="miTokm (Function)" class="md-nav__link">
+    miTokm (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mltol-function" title="mlTol (Function)" class="md-nav__link">
+    mlTol (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stoms-function" title="sToms (Function)" class="md-nav__link">
+    sToms (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stons-function" title="sTons (Function)" class="md-nav__link">
+    sTons (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stous-function" title="sTous (Function)" class="md-nav__link">
+    sTous (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ttog-function" title="tTog (Function)" class="md-nav__link">
+    tTog (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ttokg-function" title="tTokg (Function)" class="md-nav__link">
+    tTokg (Function)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ytod-function" title="yTod (Function)" class="md-nav__link">
+    yTod (Function)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/siddhi-io/siddhi-execution-unitconversion/blob/master/api/2.0.2-SNAPSHOT.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="api-docs-v202-snapshot">API Docs - v2.0.2-SNAPSHOT</h1>
+<div class="admonition info">
+<p class="admonition-title">Tested Siddhi Core version: <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/">5.0.2</a></em></p>
+<p>It could also support other Siddhi Core minor versions.</p>
+</div>
+<h2 id="unitconversion">Unitconversion</h2>
+<h3 id="mmtokm-function">MmTokm <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in megameters into kilometers.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:MmTokm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:MmTokm(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The megameter value <code>1</code> is converted into kilometers as <code>1000.0</code>.</p>
+
+<h3 id="cmtoft-function">cmToft <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in centimeters to feet.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmToft(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:cmToft(100)
+</code></pre>
+
+<p style="word-wrap: break-word">The centimeters value <code>100</code> will be converted into feet as <code>3.280</code>.</p>
+
+<h3 id="cmtoin-function">cmToin <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in centimeters into inches.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmToin(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:cmToin(100)
+</code></pre>
+
+<p style="word-wrap: break-word">Input centimeters value <code>100</code> will be converted into inches as <code>39.37</code>.</p>
+
+<h3 id="cmtokm-function">cmTokm <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input value given in centimeters into kilometers.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmTokm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:cmTokm(100)
+</code></pre>
+
+<p style="word-wrap: break-word">The centimeters value <code>100</code> is converted into kilometers as <code>0.001</code>.</p>
+
+<h3 id="cmtom-function">cmTom <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in centimeters into meters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmTom(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:cmTom(100)
+</code></pre>
+
+<p style="word-wrap: break-word">The centimeters value <code>100</code> is converted into meters as <code>1.0</code>.</p>
+
+<h3 id="cmtomi-function">cmTomi <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in centimeters into miles.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmTomi(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:cmTomi(10000)
+</code></pre>
+
+<p style="word-wrap: break-word">The centimeters value <code>10000</code> is converted into miles as <code>0.062</code>.</p>
+
+<h3 id="cmtomm-function">cmTomm <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in centimeters into millimeters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmTomm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:cmTomm(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The centimeter value <code>1</code> is converted into millimeters as <code>10.0</code>.</p>
+
+<h3 id="cmtonm-function">cmTonm <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in centimeters into nanometers.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmTonm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:cmTonm(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The centimeter value <code>1</code> is converted into nanometers as <code>10000000</code>.</p>
+
+<h3 id="cmtoum-function">cmToum <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input in centimeters into micrometers.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmToum(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:cmToum(100)
+</code></pre>
+
+<p style="word-wrap: break-word">The centimeters value <code>100</code> is converted into micrometers as <code>1000000.0</code>.</p>
+
+<h3 id="cmtoyd-function">cmToyd <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in centimeters into yards.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmToyd(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:cmToyd(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The centimeter value <code>1</code> is converted into yards as <code>0.01</code>.</p>
+
+<h3 id="dtoh-function">dToh <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in days into hours.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:dToh(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:dToh(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The day value <code>1</code> is converted into hours as <code>24.0</code>.</p>
+
+<h3 id="gtokg-function">gTokg <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in grams into kilograms.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:gTokg(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:gTokg(1000)
+</code></pre>
+
+<p style="word-wrap: break-word">The grams value <code>1000</code> is converted into kilogram as <code>1.0</code>.</p>
+
+<h3 id="gtomg-function">gTomg <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in grams into milligrams.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:gTomg(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:gTomg(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The gram value <code>1</code> is converted into milligrams as <code>1000.0</code>.</p>
+
+<h3 id="gtoug-function">gToug <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in grams into micrograms.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:gToug(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:gToug(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The gram value <code>1</code> is converted into micrograms as <code>1000000.0</code>.</p>
+
+<h3 id="htom-function">hTom <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in hours into minutes.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:hTom(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:hTom(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The hour value <code>1</code> is converted into minutes as <code>60.0</code>.</p>
+
+<h3 id="htos-function">hTos <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in hours into seconds.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:hTos(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:hTos(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The hour value <code>1</code> is converted into seconds as <code>3600.0</code>.</p>
+
+<h3 id="kgtolt-function">kgToLT <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilograms into imperial tons.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgToLT(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kgToLT(1000)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilograms value <code>1000</code> is converted into imperial tons as <code>0.9842</code>.</p>
+
+<h3 id="kgtost-function">kgToST <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilograms into US tons.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgToST(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kgToST(1000)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilograms value <code>1000</code> is converted into US tons as <code>1.10</code>.</p>
+
+<h3 id="kgtog-function">kgTog <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilograms into grams.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgTog(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kgTog(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilogram value <code>1</code> is converted into grams as <code>1000</code>.</p>
+
+<h3 id="kgtolb-function">kgTolb <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilograms into pounds.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgTolb(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kgTolb(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilogram value <code>1</code> is converted into pounds as <code>2.2</code>.</p>
+
+<h3 id="kgtooz-function">kgTooz <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilograms into ounces.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgTooz(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kgTooz(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilogram value <code>1</code> is converted into ounces as <code>35.274</code>.</p>
+
+<h3 id="kgtost-function_1">kgTost <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilograms into imperial stones.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgTost(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kgTost(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilogram value <code>1</code> is converted into imperial stones as <code>0.157</code>.</p>
+
+<h3 id="kgtot-function">kgTot <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilograms into tonnes.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgTot(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kgTot(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilogram value <code>1</code> is converted into tonnes as <code>0.001</code>.</p>
+
+<h3 id="kmtocm-function">kmTocm <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilometers into centimeters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmTocm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kmTocm(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilometer value <code>1</code> is converted into centimeters as <code>100000.0</code>.</p>
+
+<h3 id="kmtoft-function">kmToft <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilometers into foot.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmToft(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kmToft(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilometer value <code>1</code> is converted into foot as <code>3280.8</code>.</p>
+
+<h3 id="kmtoin-function">kmToin <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilometers into inches.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmToin(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kmToin(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilometer value <code>1</code> is converted into inches as <code>39370.08</code>.</p>
+
+<h3 id="kmtom-function">kmTom <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilometers into meters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmTom(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kmTom(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilometer value <code>1</code> is converted into meters as <code>1000.0</code>.</p>
+
+<h3 id="kmtomi-function">kmTomi <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilometers into miles.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmTomi(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kmTomi(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilometer value <code>1</code> is converted into miles as <code>0.621</code>.</p>
+
+<h3 id="kmtomm-function">kmTomm <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilometers into millimeters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmTomm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kmTomm(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilometer value <code>1</code> is converted into millimeters as <code>1000000.0</code>.</p>
+
+<h3 id="kmtonm-function">kmTonm <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilometers into nanometers.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmTonm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kmTonm(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilometer value <code>1</code> is converted into nanometers as <code>1000000000000.0</code>.</p>
+
+<h3 id="kmtoum-function">kmToum <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilometers into micrometers.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmToum(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kmToum(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilometer value <code>1</code> is converted into micrometers as <code>1000000000.0</code>.</p>
+
+<h3 id="kmtoyd-function">kmToyd <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in kilometers into yards.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmToyd(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:kmToyd(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The kilometer value <code>1</code> is converted into yards as <code>1093.6</code>.</p>
+
+<h3 id="ltom3-function">lTom3 <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in liters into cubic meters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:lTom3(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:lTom3(1000)
+</code></pre>
+
+<p style="word-wrap: break-word">The liters value <code>1000</code> is converted into cubic meters as <code>1</code>.</p>
+
+<h3 id="ltoml-function">lToml <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in liters into milliliters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:lToml(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:lToml(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The liter value <code>1</code> is converted into milliliters as <code>1000.0</code>.</p>
+
+<h3 id="m3tol-function">m3Tol <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in cubic meters into liters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:m3Tol(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:m3Tol(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The cubic meter value <code>1</code> is converted into liters as <code>1000.0</code>.</p>
+
+<h3 id="mtocm-function">mTocm <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in meters into centimeters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:mTocm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:mTocm(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The meter value <code>1</code> is converted to centimeters as <code>100.0</code>.</p>
+
+<h3 id="mtoft-function">mToft <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in meters into foot.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:mToft(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:mToft(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The meter value <code>1</code> is converted into foot as <code>3.280</code>.</p>
+
+<h3 id="mtomm-function">mTomm <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in meters into millimeters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:mTomm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:mTomm(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The meter value <code>1</code> is converted into millimeters as <code>1000.0</code>.</p>
+
+<h3 id="mtos-function">mTos <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in minutes into seconds.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:mTos(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:mTos(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The minute value <code>1</code> is converted into seconds as <code>60.0</code>.</p>
+
+<h3 id="mtoyd-function">mToyd <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in meters into yards.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:mToyd(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:mToyd(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The meter value <code>1</code> is converted into yards as <code>1.093</code>.</p>
+
+<h3 id="mitokm-function">miTokm <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in miles into kilometers.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:miTokm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:miTokm(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The mile value <code>1</code> is converted into kilometers as <code>1.6</code>.</p>
+
+<h3 id="mltol-function">mlTol <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in milliliters into liters.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:mlTol(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:mlTol(1000)
+</code></pre>
+
+<p style="word-wrap: break-word">The milliliters value <code>1000</code> is converted into liters as <code>1</code>.</p>
+
+<h3 id="stoms-function">sToms <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in seconds into milliseconds.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:sToms(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:sToms(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The second value <code>1</code> is converted into milliseconds as <code>1000.0</code>.</p>
+
+<h3 id="stons-function">sTons <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in seconds into nanoseconds.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:sTons(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:sTons(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The second value <code>1</code> is converted into nanoseconds as <code>1000000000.0</code>.</p>
+
+<h3 id="stous-function">sTous <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in seconds into microseconds.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:sTous(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:sTous(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The second value <code>1</code> is converted into microseconds as <code>1000000.0</code>.</p>
+
+<h3 id="ttog-function">tTog <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in tonnes into grams.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:tTog(&lt;INT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:tTog(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The tonne value <code>1</code> is converted into grams as <code>1000000.0</code>.</p>
+
+<h3 id="ttokg-function">tTokg <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the input given in tonnes into kilograms.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:tTokg(&lt;INT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:tTokg(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The tonne value <code>1</code> is converted into kilograms as <code>1000.0</code>.</p>
+
+<h3 id="ytod-function">yTod <em><a target="_blank" href="http://siddhi.io/en/v5.0/docs/query-guide/#function">(Function)</a></em></h3>
+<p><p style="word-wrap: break-word">Function converts the given input in years into days.</p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<pre><code>&lt;DOUBLE&gt; unitconversion:yTod(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
+
+<p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
+<table>
+    <tr>
+        <th>Name</th>
+        <th style="min-width: 20em">Description</th>
+        <th>Default Value</th>
+        <th>Possible Data Types</th>
+        <th>Optional</th>
+        <th>Dynamic</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top">p1</td>
+        <td style="vertical-align: top; word-wrap: break-word">The value that needs to be converted.</td>
+        <td style="vertical-align: top"></td>
+        <td style="vertical-align: top">INT<br>LONG<br>FLOAT<br>DOUBLE</td>
+        <td style="vertical-align: top">No</td>
+        <td style="vertical-align: top">Yes</td>
+    </tr>
+</table></p>
+<p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
+<span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
+<pre><code>unitconversion:yTod(1)
+</code></pre>
+
+<p style="word-wrap: break-word">The year value <code>1</code> is converted into days as <code>365.2525</code>.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Siddhi - Documentation
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/siddhi-io/siddhi" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://medium.com/siddhi-io" class="md-footer-social__link fa fa-medium"></a>
+    
+      <a href="https://twitter.com/siddhi_io" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://www.linkedin.com/groups/13553064" class="md-footer-social__link fa fa-linkedin"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+        <script src="../../assets/javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>

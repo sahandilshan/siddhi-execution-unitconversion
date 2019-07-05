@@ -2,7 +2,7 @@
 
 
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
   <head>
     
@@ -10,13 +10,9 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
-        <meta name="description" content="Siddhi Execution Unitconversion Extension">
+        <meta name="description" content="Siddhi Execution Unit Conversion Extension">
       
       
-        <link rel="canonical" href="https://wso2-extensions.github.io/siddhi-execution-unitconversion/api/1.0.5/">
-      
-      
-        <meta name="author" content="WSO2">
       
       
         <meta name="lang:clipboard.copy" content="Copy to clipboard">
@@ -38,17 +34,17 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../images/favicon.ico">
-      <meta name="generator" content="mkdocs-0.17.4, mkdocs-material-2.9.2">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
     
     
       
-        <title>1.0.5 - Siddhi Execution Unitconversion</title>
+        <title>1.0.5 - Siddhi Execution Unit Conversion</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.ba0fd1a6.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.6079476c.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
       
       
         
@@ -57,18 +53,47 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
     
     
-      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
     <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-103065-28", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
     
     
   </head>
@@ -81,24 +106,7 @@
       <defs>
         
         
-          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
-    viewBox="0 0 416 448" id="__github">
-  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
-        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
-        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
-        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
-        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
-        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
-        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
-        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
-        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
-        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
-        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
-        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
-        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
-        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
-        99.5z" />
-</svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
         
       </defs>
     </svg>
@@ -115,9 +123,9 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://wso2-extensions.github.io/siddhi-execution-unitconversion/" title="Siddhi Execution Unitconversion" class="md-header-nav__button md-logo">
+        <a href="../.." title="Siddhi Execution Unit Conversion" class="md-header-nav__button md-logo">
           
-            <img src="../../images/siddhi-logo-w.svg" width="24" height="24">
+            <img src="../../images/siddhi-logo.svg" width="24" height="24">
           
         </a>
       </div>
@@ -127,22 +135,21 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            
-              <span class="md-header-nav__topic">
-                Siddhi Execution Unitconversion
-              </span>
-              <span class="md-header-nav__topic">
+            <span class="md-header-nav__topic">
+              Siddhi Execution Unit Conversion
+            </span>
+            <span class="md-header-nav__topic">
+              
                 1.0.5
-              </span>
-            
+              
+            </span>
           
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
@@ -165,7 +172,6 @@
     </div>
   </div>
 </div>
-          
         
       </div>
       
@@ -176,20 +182,18 @@
 
   
 
-
-  <a href="https://github.com/wso2-extensions/siddhi-execution-unitconversion/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      Siddhi-Execution-Unitconversion
+<a href="https://github.com/siddhi-io/siddhi-execution-unitconversion/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    Siddhi Execution Unitconversion
+  </div>
+</a>
           </div>
         </div>
       
@@ -211,12 +215,12 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <span class="md-nav__button md-logo">
+    <a href="../.." title="Siddhi Execution Unit Conversion" class="md-nav__button md-logo">
       
-        <img src="../../images/siddhi-logo-w.svg" width="48" height="48">
+        <img src="../../images/siddhi-logo.svg" width="48" height="48">
       
-    </span>
-    Siddhi Execution Unitconversion
+    </a>
+    Siddhi Execution Unit Conversion
   </label>
   
     <div class="md-nav__source">
@@ -225,20 +229,18 @@
 
   
 
-
-  <a href="https://github.com/wso2-extensions/siddhi-execution-unitconversion/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      Siddhi-Execution-Unitconversion
+<a href="https://github.com/siddhi-io/siddhi-execution-unitconversion/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    Siddhi Execution Unitconversion
+  </div>
+</a>
     </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -249,8 +251,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../.." title="Welcome" class="md-nav__link">
-      Welcome
+    <a href="../.." title="Information" class="md-nav__link">
+      Information
     </a>
   </li>
 
@@ -275,6 +277,30 @@
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../latest/" title="latest" class="md-nav__link">
+      latest
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../2.0.1/" title="2.0.1" class="md-nav__link">
+      2.0.1
+    </a>
+  </li>
+
         
           
           
@@ -848,18 +874,6 @@
   </li>
 
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../latest/" title="latest" class="md-nav__link">
-      latest
-    </a>
-  </li>
-
-        
       </ul>
     </nav>
   </li>
@@ -1262,18 +1276,17 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/wso2-extensions/siddhi-execution-unitconversion/edit/master/docs/api/1.0.5.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/siddhi-io/siddhi-execution-unitconversion/blob/master/api/1.0.5.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="api-docs-v105">API Docs - v1.0.5<a class="headerlink" href="#api-docs-v105" title="Permanent link">&para;</a></h1>
-<h2 id="unitconversion">Unitconversion<a class="headerlink" href="#unitconversion" title="Permanent link">&para;</a></h2>
-<h3 id="ltoml-function">lToml <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#ltoml-function" title="Permanent link">&para;</a></h3>
+                <h1 id="api-docs-v105">API Docs - v1.0.5</h1>
+<h2 id="unitconversion">Unitconversion</h2>
+<h3 id="ltoml-function">lToml <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input liters into milliliters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:lToml(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:lToml(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1296,22 +1309,20 @@
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForLitreToMillilitreStream (inValue int); 
+<pre><code>define stream UnitConversionForLitreToMillilitreStream (inValue int); 
 from UnitConversionForLitreToMillilitreStream 
 select unitconversion:lToml(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The liter values from UnitConversionForLitreToMillilitreStream will be converted to milliliters and inserted in to the OutMediationStream</p>
 
-<h3 id="m3tol-function">m3Tol <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#m3tol-function" title="Permanent link">&para;</a></h3>
+<h3 id="m3tol-function">m3Tol <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input cubic meters into liters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:m3Tol(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:m3Tol(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1334,22 +1345,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForCubicmetreToLitreStream (inValue int); 
+<pre><code>define stream UnitConversionForCubicmetreToLitreStream (inValue int); 
 from UnitConversionForCubicmetreToLitreStream 
 select unitconversion:m3Tol(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The cubic meter values from UnitConversionForCubicmetreToLitreStream will be converted to liters and inserted in to the OutMediationStream</p>
 
-<h3 id="mltol-function">mlTol <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#mltol-function" title="Permanent link">&para;</a></h3>
+<h3 id="mltol-function">mlTol <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input milliliters into liters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:mlTol(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:mlTol(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1372,22 +1381,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForMillilitreToLitreStream (inValue int); 
+<pre><code>define stream UnitConversionForMillilitreToLitreStream (inValue int); 
 from UnitConversionForMillilitreToLitreStream 
 select unitconversion:mlTol(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The milliliter values from UnitConversionForMillilitreToLitreStream will be converted to liters and inserted in to the OutMediationStream</p>
 
-<h3 id="ltom3-function">lTom3 <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#ltom3-function" title="Permanent link">&para;</a></h3>
+<h3 id="ltom3-function">lTom3 <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input liters into cubic meters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:lTom3(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:lTom3(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1410,22 +1417,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForLitreToCubicmetreStream (inValue int); 
+<pre><code>define stream UnitConversionForLitreToCubicmetreStream (inValue int); 
 from UnitConversionForLitreToCubicmetreStream 
 select unitconversion:lTom3(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The liter values from UnitConversionForLitreToCubicmetreStream will be converted to cubic meters and inserted in to the OutMediationStream</p>
 
-<h3 id="kmtoft-function">kmToft <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kmtoft-function" title="Permanent link">&para;</a></h3>
+<h3 id="kmtoft-function">kmToft <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilometers into feet</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kmToft(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmToft(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1448,22 +1453,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilometreToFootStream (inValue int); 
+<pre><code>define stream UnitConversionForKilometreToFootStream (inValue int); 
 from UnitConversionForKilometreToFootStream 
 select unitconversion:kmToft(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilometer values from UnitConversionForKilometreToFootStream will be converted to feet and inserted in to the OutMediationStream</p>
 
-<h3 id="cmtoum-function">cmToum <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#cmtoum-function" title="Permanent link">&para;</a></h3>
+<h3 id="cmtoum-function">cmToum <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input centimeters into micrometers</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:cmToum(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmToum(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1486,22 +1489,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForCentimetreToMicrometreStream (inValue int); 
+<pre><code>define stream UnitConversionForCentimetreToMicrometreStream (inValue int); 
 from UnitConversionForCentimetreToMicrometreStream 
 select unitconversion:cmToum(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The centimeter values from UnitConversionForCentimetreToMicrometreStream will be converted to micrometers and inserted in to the OutMediationStream</p>
 
-<h3 id="mtomm-function">mTomm <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#mtomm-function" title="Permanent link">&para;</a></h3>
+<h3 id="mtomm-function">mTomm <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input meters into millimeters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:mTomm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:mTomm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1524,22 +1525,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForMetreToMillimetreStream (inValue int); 
+<pre><code>define stream UnitConversionForMetreToMillimetreStream (inValue int); 
 from UnitConversionForMetreToMillimetreStream 
 select unitconversion:mTomm(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The meter values from UnitConversionForMetreToMillimetreStream will be converted to millimeters and inserted in to the OutMediationStream</p>
 
-<h3 id="kmtomm-function">kmTomm <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kmtomm-function" title="Permanent link">&para;</a></h3>
+<h3 id="kmtomm-function">kmTomm <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilometers into millimeters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kmTomm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmTomm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1562,22 +1561,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilometreToMillimetreStream (inValue int); 
+<pre><code>define stream UnitConversionForKilometreToMillimetreStream (inValue int); 
 from UnitConversionForKilometreToMillimetreStream 
 select unitconversion:kmTomm(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilometer values from UnitConversionForKilometreToMillimetreStream will be converted to millimeters and inserted in to the OutMediationStream</p>
 
-<h3 id="mtoyd-function">mToyd <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#mtoyd-function" title="Permanent link">&para;</a></h3>
+<h3 id="mtoyd-function">mToyd <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input meters into yards</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:mToyd(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:mToyd(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1600,22 +1597,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForMetreToYardStream (inValue int); 
+<pre><code>define stream UnitConversionForMetreToYardStream (inValue int); 
 from UnitConversionForMetreToYardStream 
 select unitconversion:mToyd(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The meter values from UnitConversionForMetreToYardStream will be converted to yards and inserted in to the OutMediationStream</p>
 
-<h3 id="kmtocm-function">kmTocm <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kmtocm-function" title="Permanent link">&para;</a></h3>
+<h3 id="kmtocm-function">kmTocm <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilometers into centimeters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kmTocm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmTocm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1638,22 +1633,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilometreToCentimetreStream (inValue int); 
+<pre><code>define stream UnitConversionForKilometreToCentimetreStream (inValue int); 
 from UnitConversionForKilometreToCentimetreStream 
 select unitconversion:kmTocm(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilometer values from UnitConversionForKilometreToCentimetreStream will be converted to centimeters and inserted in to the OutMediationStream</p>
 
-<h3 id="mtocm-function">mTocm <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#mtocm-function" title="Permanent link">&para;</a></h3>
+<h3 id="mtocm-function">mTocm <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input meters into centimeters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:mTocm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:mTocm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1676,22 +1669,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForMetreToCentimetreStream (inValue int); 
+<pre><code>define stream UnitConversionForMetreToCentimetreStream (inValue int); 
 from UnitConversionForMetreToCentimetreStream 
 select unitconversion:mTocm(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The meter values from UnitConversionForMetreToCentimetreStream will be converted to centimeters and inserted in to the OutMediationStream</p>
 
-<h3 id="cmtoft-function">cmToft <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#cmtoft-function" title="Permanent link">&para;</a></h3>
+<h3 id="cmtoft-function">cmToft <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input centimeters into feet</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:cmToft(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmToft(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1714,22 +1705,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForCentimetreToFootStream (inValue int); 
+<pre><code>define stream UnitConversionForCentimetreToFootStream (inValue int); 
 from UnitConversionForCentimetreToFootStream 
 select unitconversion:cmToft(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The centimeter values from UnitConversionForCentimetreToFootStream will be converted to feet and inserted in to the OutMediationStream</p>
 
-<h3 id="kmtom-function">kmTom <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kmtom-function" title="Permanent link">&para;</a></h3>
+<h3 id="kmtom-function">kmTom <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilometers into meters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kmTom(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmTom(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1752,22 +1741,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilometreToMetreStream (inValue int); 
+<pre><code>define stream UnitConversionForKilometreToMetreStream (inValue int); 
 from UnitConversionForKilometreToMetreStream 
 select unitconversion:kmTom(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilometer values from UnitConversionForKilometreToMetreStream will be converted to meters and inserted in to the OutMediationStream</p>
 
-<h3 id="mmtokm-function">MmTokm <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#mmtokm-function" title="Permanent link">&para;</a></h3>
+<h3 id="mmtokm-function">MmTokm <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input megameters into kilometers</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:MmTokm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:MmTokm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1790,22 +1777,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForMegametreToKilometreStream (inValue int); 
+<pre><code>define stream UnitConversionForMegametreToKilometreStream (inValue int); 
 from UnitConversionForMegametreToKilometreStream 
 select unitconversion:MmTokm(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The megameters values from UnitConversionForMegametreToKilometreStream will be converted to kilometers and inserted in to the OutMediationStream</p>
 
-<h3 id="kmtoyd-function">kmToyd <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kmtoyd-function" title="Permanent link">&para;</a></h3>
+<h3 id="kmtoyd-function">kmToyd <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilometers into yards</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kmToyd(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmToyd(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1828,22 +1813,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilometreToYardStream (inValue int); 
+<pre><code>define stream UnitConversionForKilometreToYardStream (inValue int); 
 from UnitConversionForKilometreToYardStream 
 select unitconversion:kmToyd(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilometer values from UnitConversionForKilometreToYardStream will be converted to yards and inserted in to the OutMediationStream</p>
 
-<h3 id="cmtonm-function">cmTonm <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#cmtonm-function" title="Permanent link">&para;</a></h3>
+<h3 id="cmtonm-function">cmTonm <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input centimeters into nanometers</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:cmTonm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmTonm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1866,22 +1849,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForCentimetreToNanometreStream (inValue int); 
+<pre><code>define stream UnitConversionForCentimetreToNanometreStream (inValue int); 
 from UnitConversionForCentimetreToNanometreStream 
 select unitconversion:cmTonm(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The centimeter values from UnitConversionForCentimetreToNanometreStream will be converted to nanometers and inserted in to the OutMediationStream</p>
 
-<h3 id="kmtoin-function">kmToin <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kmtoin-function" title="Permanent link">&para;</a></h3>
+<h3 id="kmtoin-function">kmToin <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilometers into inches</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kmToin(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmToin(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1904,22 +1885,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilometreToInchStream (inValue int); 
+<pre><code>define stream UnitConversionForKilometreToInchStream (inValue int); 
 from UnitConversionForKilometreToInchStream 
 select unitconversion:kmToin(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilometer values from UnitConversionForKilometreToInchStream will be converted to inches and inserted in to the OutMediationStream</p>
 
-<h3 id="cmtom-function">cmTom <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#cmtom-function" title="Permanent link">&para;</a></h3>
+<h3 id="cmtom-function">cmTom <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input centimeters into meters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:cmTom(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmTom(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1942,22 +1921,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForCentimetreToMeterStream (inValue int); 
+<pre><code>define stream UnitConversionForCentimetreToMeterStream (inValue int); 
 from UnitConversionForCentimetreToMeterStream 
 select unitconversion:cmTom(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The centimeter values from UnitConversionForCentimetreToMeterStream will be converted to meters and inserted in to the OutMediationStream</p>
 
-<h3 id="cmtoin-function">cmToin <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#cmtoin-function" title="Permanent link">&para;</a></h3>
+<h3 id="cmtoin-function">cmToin <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input centimeters into inches</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:cmToin(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmToin(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -1980,22 +1957,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForCentimetreToInchStream (inValue int); 
+<pre><code>define stream UnitConversionForCentimetreToInchStream (inValue int); 
 from UnitConversionForCentimetreToInchStream 
 select unitconversion:cmToin(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The centimeter values from UnitConversionForCentimetreToInchStream will be converted to inches and inserted in to the OutMediationStream</p>
 
-<h3 id="cmtomi-function">cmTomi <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#cmtomi-function" title="Permanent link">&para;</a></h3>
+<h3 id="cmtomi-function">cmTomi <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input centimeters into miles</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:cmTomi(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmTomi(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2018,22 +1993,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForCentimetreToMileStream (inValue int); 
+<pre><code>define stream UnitConversionForCentimetreToMileStream (inValue int); 
 from UnitConversionForCentimetreToMileStream 
 select unitconversion:cmTomi(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The centimeter values from UnitConversionForCentimetreToMileStream will be converted to miles and inserted in to the OutMediationStream</p>
 
-<h3 id="kmtomi-function">kmTomi <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kmtomi-function" title="Permanent link">&para;</a></h3>
+<h3 id="kmtomi-function">kmTomi <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilometers into miles</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kmTomi(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmTomi(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2056,22 +2029,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilometreToMileStream (inValue int); 
+<pre><code>define stream UnitConversionForKilometreToMileStream (inValue int); 
 from UnitConversionForKilometreToMileStream 
 select unitconversion:kmTomi(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilometer values from UnitConversionForKilometreToMileStream will be converted to miles and inserted in to the OutMediationStream</p>
 
-<h3 id="kmtoum-function">kmToum <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kmtoum-function" title="Permanent link">&para;</a></h3>
+<h3 id="kmtoum-function">kmToum <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilometers into micrometers</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kmToum(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmToum(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2094,22 +2065,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilometreToMicrometreStream (inValue int); 
+<pre><code>define stream UnitConversionForKilometreToMicrometreStream (inValue int); 
 from UnitConversionForKilometreToMicrometreStream 
 select unitconversion:kmToum(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilometer values from UnitConversionForKilometreToMicrometreStream will be converted to micrometers and inserted in to the OutMediationStream</p>
 
-<h3 id="cmtoyd-function">cmToyd <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#cmtoyd-function" title="Permanent link">&para;</a></h3>
+<h3 id="cmtoyd-function">cmToyd <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input centimeters into yards</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:cmToyd(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmToyd(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2132,22 +2101,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForCentimetreToYardStream (inValue int); 
+<pre><code>define stream UnitConversionForCentimetreToYardStream (inValue int); 
 from UnitConversionForCentimetreToYardStream 
 select unitconversion:cmToyd(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The centimeter values from UnitConversionForCentimetreToYardStream will be converted to yards and inserted in to the OutMediationStream</p>
 
-<h3 id="kmtonm-function">kmTonm <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kmtonm-function" title="Permanent link">&para;</a></h3>
+<h3 id="kmtonm-function">kmTonm <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilometers into nanometers</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kmTonm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kmTonm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2170,22 +2137,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilometreToNanometreStream (inValue int); 
+<pre><code>define stream UnitConversionForKilometreToNanometreStream (inValue int); 
 from UnitConversionForKilometreToNanometreStream 
 select unitconversion:kmTonm(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilometer values from UnitConversionForKilometreToNanometreStream will be converted to nanometers and inserted in to the OutMediationStream</p>
 
-<h3 id="cmtokm-function">cmTokm <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#cmtokm-function" title="Permanent link">&para;</a></h3>
+<h3 id="cmtokm-function">cmTokm <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input centimeters into kilometers</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:cmTokm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmTokm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2208,22 +2173,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForCentimetreToKilometreStream (inValue int); 
+<pre><code>define stream UnitConversionForCentimetreToKilometreStream (inValue int); 
 from UnitConversionForCentimetreToKilometreStream 
 select unitconversion:cmTokm(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The centimeter values from UnitConversionForCentimetreToKilometreStream will be converted to kilometers and inserted in to the OutMediationStream</p>
 
-<h3 id="mtoft-function">mToft <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#mtoft-function" title="Permanent link">&para;</a></h3>
+<h3 id="mtoft-function">mToft <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input meters into feet</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:mToft(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:mToft(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2246,22 +2209,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForMetreToFootStream (inValue int); 
+<pre><code>define stream UnitConversionForMetreToFootStream (inValue int); 
 from UnitConversionForMetreToFootStream 
 select unitconversion:mToft(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The meter values from UnitConversionForMetreToFootStream will be converted to feet and inserted in to the OutMediationStream</p>
 
-<h3 id="cmtomm-function">cmTomm <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#cmtomm-function" title="Permanent link">&para;</a></h3>
+<h3 id="cmtomm-function">cmTomm <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input centimeters into millimeters</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:cmTomm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:cmTomm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2284,22 +2245,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForCentimetreToMillimetreStream (inValue int); 
+<pre><code>define stream UnitConversionForCentimetreToMillimetreStream (inValue int); 
 from UnitConversionForCentimetreToMillimetreStream 
 select unitconversion:cmTomm(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The centimeter values from UnitConversionForCentimetreToMillimetreStream will be converted to millimeters and inserted in to the OutMediationStream</p>
 
-<h3 id="mitokm-function">miTokm <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#mitokm-function" title="Permanent link">&para;</a></h3>
+<h3 id="mitokm-function">miTokm <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input miles into kilometers</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:miTokm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:miTokm(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2322,22 +2281,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForMileToKilometreStream (inValue int); 
+<pre><code>define stream UnitConversionForMileToKilometreStream (inValue int); 
 from UnitConversionForMileToKilometreStream 
 select unitconversion:miTokm(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The mile values from UnitConversionForMileToKilometreStream will be converted to kilometers and inserted in to the OutMediationStream</p>
 
-<h3 id="htom-function">hTom <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#htom-function" title="Permanent link">&para;</a></h3>
+<h3 id="htom-function">hTom <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input hours into minutes</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:hTom(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:hTom(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2360,22 +2317,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForHourToMinuteStream (inValue int); 
+<pre><code>define stream UnitConversionForHourToMinuteStream (inValue int); 
 from UnitConversionForHourToMinuteStream 
 select unitconversion:hTom(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The hour values from UnitConversionForHourToMinuteStream will be converted to minutes and inserted in to the OutMediationStream</p>
 
-<h3 id="dtoh-function">dToh <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#dtoh-function" title="Permanent link">&para;</a></h3>
+<h3 id="dtoh-function">dToh <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input days into hours</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:dToh(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:dToh(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2398,22 +2353,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForDayToHourStream (inValue int); 
+<pre><code>define stream UnitConversionForDayToHourStream (inValue int); 
 from UnitConversionForDayToHourStream 
 select unitconversion:dToh(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The day values from UnitConversionForDayToHourStream will be converted to hours and inserted in to the OutMediationStream</p>
 
-<h3 id="stons-function">sTons <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#stons-function" title="Permanent link">&para;</a></h3>
+<h3 id="stons-function">sTons <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input seconds into nanoseconds</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:sTons(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:sTons(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2436,22 +2389,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForSecondToNanosecondStream (inValue int); 
+<pre><code>define stream UnitConversionForSecondToNanosecondStream (inValue int); 
 from UnitConversionForSecondToNanosecondStream 
 select unitconversion:sTons(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The second values from UnitConversionForSecondToNanosecondStream will be converted to nanoseconds and inserted in to the OutMediationStream</p>
 
-<h3 id="ytod-function">yTod <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#ytod-function" title="Permanent link">&para;</a></h3>
+<h3 id="ytod-function">yTod <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input years into days</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:yTod(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:yTod(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2474,22 +2425,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForYearToDayStream (inValue int); 
+<pre><code>define stream UnitConversionForYearToDayStream (inValue int); 
 from UnitConversionForYearToDayStream 
 select unitconversion:yTod(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The year values from UnitConversionForYearToDayStream will be converted to days and inserted in to the OutMediationStream</p>
 
-<h3 id="stous-function">sTous <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#stous-function" title="Permanent link">&para;</a></h3>
+<h3 id="stous-function">sTous <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input seconds into microseconds</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:sTous(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:sTous(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2512,22 +2461,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForSecondToMicrosecondStream (inValue int); 
+<pre><code>define stream UnitConversionForSecondToMicrosecondStream (inValue int); 
 from UnitConversionForSecondToMicrosecondStream 
 select unitconversion:sTous(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The second values from UnitConversionForSecondToMicrosecondStream will be converted to microseconds and inserted in to the OutMediationStream</p>
 
-<h3 id="mtos-function">mTos <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#mtos-function" title="Permanent link">&para;</a></h3>
+<h3 id="mtos-function">mTos <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input minutes into seconds</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:mTos(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:mTos(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2550,22 +2497,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForMinuteToSecondStream (inValue int); 
+<pre><code>define stream UnitConversionForMinuteToSecondStream (inValue int); 
 from UnitConversionForMinuteToSecondStream 
 select unitconversion:mTos(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The minute values from UnitConversionForMinuteToSecondStream will be converted to seconds and inserted in to the OutMediationStream</p>
 
-<h3 id="htos-function">hTos <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#htos-function" title="Permanent link">&para;</a></h3>
+<h3 id="htos-function">hTos <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input hours into seconds</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:hTos(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:hTos(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2588,22 +2533,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForHourToSecondStream (inValue int); 
+<pre><code>define stream UnitConversionForHourToSecondStream (inValue int); 
 from UnitConversionForHourToSecondStream 
 select unitconversion:hTos(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The hour values from UnitConversionForHourToSecondStream will be converted to seconds and inserted in to the OutMediationStream</p>
 
-<h3 id="stoms-function">sToms <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#stoms-function" title="Permanent link">&para;</a></h3>
+<h3 id="stoms-function">sToms <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input seconds into milliseconds</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:sToms(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:sToms(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2626,22 +2569,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForSecondToMillisecondStream (inValue int); 
+<pre><code>define stream UnitConversionForSecondToMillisecondStream (inValue int); 
 from UnitConversionForSecondToMillisecondStream 
 select unitconversion:sToms(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The second values from UnitConversionForSecondToMillisecondStream will be converted to milliseconds and inserted in to the OutMediationStream</p>
 
-<h3 id="ttokg-function">tTokg <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#ttokg-function" title="Permanent link">&para;</a></h3>
+<h3 id="ttokg-function">tTokg <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input Tonnes into kilograms</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:tTokg(&lt;INT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:tTokg(&lt;INT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2664,22 +2605,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForTonneToKilogramStream (inValue int); 
+<pre><code>define stream UnitConversionForTonneToKilogramStream (inValue int); 
 from UnitConversionForTonneToKilogramStream 
 select unitconversion:tTokg(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The Tonne values from UnitConversionForTonneToKilogramStream will be converted to kilograms and inserted in to the OutMediationStream</p>
 
-<h3 id="kgtost-function">kgToST <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kgtost-function" title="Permanent link">&para;</a></h3>
+<h3 id="kgtost-function">kgToST <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilograms into US tons</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kgToST(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgToST(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2702,22 +2641,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilogramToUSTonStream (inValue int); 
+<pre><code>define stream UnitConversionForKilogramToUSTonStream (inValue int); 
 from UnitConversionForKilogramToUSTonStream 
 select unitconversion:kgToST(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilogram values from UnitConversionForKilogramToUSTonStream will be converted to US tons and inserted in to the OutMediationStream</p>
 
-<h3 id="kgtooz-function">kgTooz <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kgtooz-function" title="Permanent link">&para;</a></h3>
+<h3 id="kgtooz-function">kgTooz <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilograms into ounces</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kgTooz(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgTooz(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2740,22 +2677,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilogramToOunceStream (inValue int); 
+<pre><code>define stream UnitConversionForKilogramToOunceStream (inValue int); 
 from UnitConversionForKilogramToOunceStream 
 select unitconversion:kgTooz(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilogram values from UnitConversionForKilogramToOunceStream will be converted to ounces and inserted in to the OutMediationStream</p>
 
-<h3 id="kgtolb-function">kgTolb <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kgtolb-function" title="Permanent link">&para;</a></h3>
+<h3 id="kgtolb-function">kgTolb <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilograms into pounds</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kgTolb(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgTolb(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2778,22 +2713,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilogramToPoundStream (inValue int); 
+<pre><code>define stream UnitConversionForKilogramToPoundStream (inValue int); 
 from UnitConversionForKilogramToPoundStream 
 select unitconversion:kgTolb(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilogram values from UnitConversionForKilogramToPoundStream will be converted to pounds and inserted in to the OutMediationStream</p>
 
-<h3 id="gtokg-function">gTokg <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#gtokg-function" title="Permanent link">&para;</a></h3>
+<h3 id="gtokg-function">gTokg <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input grams into kilograms</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:gTokg(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:gTokg(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2816,22 +2749,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForGramToKilogramStream (inValue int); 
+<pre><code>define stream UnitConversionForGramToKilogramStream (inValue int); 
 from UnitConversionForGramToKilogramStream 
 select unitconversion:gTokg(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The gram values from UnitConversionForGramToKilogramStream will be converted to kilograms and inserted in to the OutMediationStream</p>
 
-<h3 id="kgtost-function_1">kgTost <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kgtost-function_1" title="Permanent link">&para;</a></h3>
+<h3 id="kgtost-function_1">kgTost <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilograms into imperial stones</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kgTost(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgTost(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2854,22 +2785,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilogramToStonemStream (inValue int); 
+<pre><code>define stream UnitConversionForKilogramToStonemStream (inValue int); 
 from UnitConversionForKilogramToStonemStream 
 select unitconversion:kgTost(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilogram values from UnitConversionForKilogramToStonemStream will be converted to imperial stones and inserted in to the OutMediationStream</p>
 
-<h3 id="kgtot-function">kgTot <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kgtot-function" title="Permanent link">&para;</a></h3>
+<h3 id="kgtot-function">kgTot <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilograms into Tonnes</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kgTot(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgTot(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2892,22 +2821,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilogramToTonneStream (inValue int); 
+<pre><code>define stream UnitConversionForKilogramToTonneStream (inValue int); 
 from UnitConversionForKilogramToTonneStream 
 select unitconversion:kgTot(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilogram values from UnitConversionForKilogramToTonneStream will be converted to Tonnes and inserted in to the OutMediationStream</p>
 
-<h3 id="kgtolt-function">kgToLT <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kgtolt-function" title="Permanent link">&para;</a></h3>
+<h3 id="kgtolt-function">kgToLT <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilograms into imperial tons</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kgToLT(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgToLT(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2930,22 +2857,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilogramToImperialTonStream (inValue int); 
+<pre><code>define stream UnitConversionForKilogramToImperialTonStream (inValue int); 
 from UnitConversionForKilogramToImperialTonStream 
 select unitconversion:kgToLT(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilogram values from UnitConversionForKilogramToImperialTonStream will be converted to imperial tons and inserted in to the OutMediationStream</p>
 
-<h3 id="ttog-function">tTog <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#ttog-function" title="Permanent link">&para;</a></h3>
+<h3 id="ttog-function">tTog <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input Tonnes into grams</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:tTog(&lt;INT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:tTog(&lt;INT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -2968,22 +2893,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForTonneToGramStream (inValue int); 
+<pre><code>define stream UnitConversionForTonneToGramStream (inValue int); 
 from UnitConversionForTonneToGramStream 
 select unitconversion:tTog(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The Tonne values from UnitConversionForTonneToGramStream will be converted to grams and inserted in to the OutMediationStream</p>
 
-<h3 id="gtoug-function">gToug <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#gtoug-function" title="Permanent link">&para;</a></h3>
+<h3 id="gtoug-function">gToug <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input grams into micrograms</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:gToug(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:gToug(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -3006,22 +2929,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForGramToMicrogramStream (inValue int); 
+<pre><code>define stream UnitConversionForGramToMicrogramStream (inValue int); 
 from UnitConversionForGramToMicrogramStream 
 select unitconversion:gToug(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The gram values from UnitConversionForGramToMicrogramStream will be converted to micrograms and inserted in to the OutMediationStream</p>
 
-<h3 id="gtomg-function">gTomg <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#gtomg-function" title="Permanent link">&para;</a></h3>
+<h3 id="gtomg-function">gTomg <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input grams into milligrams</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:gTomg(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:gTomg(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -3044,22 +2965,20 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForGramToMilligramStream (inValue int); 
+<pre><code>define stream UnitConversionForGramToMilligramStream (inValue int); 
 from UnitConversionForGramToMilligramStream 
 select unitconversion:gTomg(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The gram values from UnitConversionForGramToMilligramStream will be converted to milligrams and inserted in to the OutMediationStream</p>
 
-<h3 id="kgtog-function">kgTog <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#function">(Function)</a></em><a class="headerlink" href="#kgtog-function" title="Permanent link">&para;</a></h3>
+<h3 id="kgtog-function">kgTog <em><a target="_blank" href="https://siddhi.io/en/v4.x/docs/query-guide/#function">(Function)</a></em></h3>
 <p style="word-wrap: break-word">Converts the input kilograms into grams</p>
 
 <p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
-<div class="codehilite"><pre><span></span>&lt;DOUBLE&gt; unitconversion:kgTog(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
-</pre></div>
-
+<pre><code>&lt;DOUBLE&gt; unitconversion:kgTog(&lt;INT|LONG|FLOAT|DOUBLE&gt; p1)
+</code></pre>
 
 <p><span id="query-parameters" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">QUERY PARAMETERS</span>
 <table>
@@ -3082,12 +3001,11 @@ insert into OutMediationStream;
 </table></p>
 <p><span id="examples" class="md-typeset" style="display: block; font-weight: bold;">Examples</span>
 <span id="example-1" class="md-typeset" style="display: block; color: rgba(0, 0, 0, 0.54); font-size: 12.8px; font-weight: bold;">EXAMPLE 1</span></p>
-<div class="codehilite"><pre><span></span>define stream UnitConversionForKilogramToGramStream (inValue int); 
+<pre><code>define stream UnitConversionForKilogramToGramStream (inValue int); 
 from UnitConversionForKilogramToGramStream 
 select unitconversion:kgTog(inValue) as UnitConversionValue 
 insert into OutMediationStream;
-</pre></div>
-
+</code></pre>
 
 <p style="word-wrap: break-word">The kilogram values from UnitConversionForKilogramToGramStream will be converted to grams and inserted in to the OutMediationStream</p>
                 
@@ -3125,13 +3043,13 @@ insert into OutMediationStream;
           </a>
         
         
-          <a href="../latest/" title="latest" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../license/" title="License" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                latest
+                License
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -3147,7 +3065,7 @@ insert into OutMediationStream;
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright &copy; 2011 - 2018 WSO2
+            Siddhi - Documentation
           </div>
         
         powered by
@@ -3157,33 +3075,30 @@ insert into OutMediationStream;
           Material for MkDocs</a>
       </div>
       
-        
   <div class="md-footer-social">
     <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
     
-      <a href="https://github.com/wso2/siddhi" class="md-footer-social__link fa fa-github"></a>
+      <a href="https://github.com/siddhi-io/siddhi" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://medium.com/siddhi-io" class="md-footer-social__link fa fa-medium"></a>
+    
+      <a href="https://twitter.com/siddhi_io" class="md-footer-social__link fa fa-twitter"></a>
     
       <a href="https://www.linkedin.com/groups/13553064" class="md-footer-social__link fa fa-linkedin"></a>
     
   </div>
 
-      
     </div>
   </div>
 </footer>
       
     </div>
     
-      <script src="../../assets/javascripts/application.a59e2a89.js"></script>
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
       
-      <script>app.initialize({version:"0.17.4",url:{base:"../.."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
-        <script src="../../javascripts/extra.js"></script>
-      
-    
-    
-      
-        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-103065-28","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
+        <script src="../../assets/javascripts/extra.js"></script>
       
     
   </body>
