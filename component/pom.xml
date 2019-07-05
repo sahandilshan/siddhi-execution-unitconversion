@@ -19,13 +19,13 @@
     <parent>
         <groupId>io.siddhi.extension.execution.unitconversion</groupId>
         <artifactId>siddhi-execution-unitconversion-parent</artifactId>
-        <version>2.0.2</version>
+        <version>2.0.3-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>siddhi-execution-unitconversion</artifactId>
-    <version>2.0.2</version>
+    <version>2.0.3-SNAPSHOT</version>
 
     <packaging>bundle</packaging>
     <name>Siddhi Extension - Unit Conversion Implementation</name>
